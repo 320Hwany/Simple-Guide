@@ -1,7 +1,7 @@
-package simple_guide.mapper;
+package simple_guide.mapper.member;
 
 import simple_guide.domain.Member;
-import simple_guide.mapper.dto.MemberSignupRequest;
+import simple_guide.mapper.member.dto.MemberSignupRequest;
 
 public class MemberMapper {
 

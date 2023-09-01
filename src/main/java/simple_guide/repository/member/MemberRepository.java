@@ -1,6 +1,5 @@
-package simple_guide.repository;
+package simple_guide.repository.member;
 
-import com.querydsl.jpa.impl.JPAQueryFactory;
 import org.springframework.stereotype.Repository;
 import simple_guide.domain.Member;
 
@@ -8,12 +7,9 @@ import simple_guide.domain.Member;
 public class MemberRepository {
 
     private final MemberJpaRepository memberJpaRepository;
-    private final JPAQueryFactory queryFactory;
 
-    public MemberRepository(final MemberJpaRepository memberJpaRepository,
-                            final JPAQueryFactory queryFactory) {
+    public MemberRepository(final MemberJpaRepository memberJpaRepository) {
         this.memberJpaRepository = memberJpaRepository;
-        this.queryFactory = queryFactory;
     }
 
     public void save(final Member member) {

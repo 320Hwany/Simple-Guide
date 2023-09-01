@@ -1,4 +1,4 @@
-package simple_guide.mapper.dto;
+package simple_guide.mapper.member.dto;
 
 import lombok.Builder;
 

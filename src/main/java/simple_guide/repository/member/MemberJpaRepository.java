@@ -1,4 +1,4 @@
-package simple_guide.repository;
+package simple_guide.repository.member;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import simple_guide.domain.Member;

@@ -1,11 +1,11 @@
-package simple_guide.service;
+package simple_guide.service.member;
 
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import simple_guide.domain.Member;
-import simple_guide.mapper.MemberMapper;
-import simple_guide.mapper.dto.MemberSignupRequest;
-import simple_guide.repository.MemberRepository;
+import simple_guide.mapper.member.MemberMapper;
+import simple_guide.mapper.member.dto.MemberSignupRequest;
+import simple_guide.repository.member.MemberRepository;
 
 @Service
 public class MemberService {
